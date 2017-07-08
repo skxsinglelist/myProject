@@ -1,0 +1,19 @@
+android studio aar包怎么导入
+
+
+①.将aar包复制到lib目录下 
+②.配置build.gradle文件：
+加入
+  repositories {
+        flatDir {
+        dirs 'libs'
+    }
+compile(name:'camerascan-1.0', ext:'aar')
+③.编译一次工程
+
+
+bf82a1642313e73ae0ccacb19036809f
+
+请求示例：http://v.juhe.cn/toutiao/index?type=top&key=APPKEY
+
+接口备注：返回头条，社会，国内，娱乐，体育，军事，科技，财经，时尚等新闻信息  top   shehui  guonei
